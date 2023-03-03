@@ -1,3 +1,7 @@
+sudo apt update -y
+
+sudo apt-get install curl -y
+
 AWS CLI in Ubuntu
 sudo apt update -y && sudo apt-get update -y && sudo apt install unzip && sudo curl https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install
 
