@@ -2,10 +2,10 @@ sudo apt update -y
 
 sudo apt-get install curl -y
 
-AWS CLI in Ubuntu
+#AWS CLI in Ubuntu
 sudo apt update -y && sudo apt-get update -y && sudo apt install unzip && sudo curl https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip -o "awscliv2.zip" && unzip awscliv2.zip && sudo ./aws/install
 
-Terraform CLI in Ubuntu
+#Terraform CLI in Ubuntu
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 
 wget -O- https://apt.releases.hashicorp.com/gpg | \
@@ -18,12 +18,12 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
 
 sudo apt update && sudo apt-get install terraform
 
-VS Code in Ubuntu
+#VS Code in Ubuntu
 sudo snap install --classic code
 
-AWS Login in SIT
+#AWS Login in SIT
 In Ubuntu terminal , export SIT(https://d-9d67010817.awsapps.com/start#/) environment variable . You should be able to login and run AWS CLI commands.ex :- aws s3 ls
 
-Git in Ubuntu
+#Git in Ubuntu
 sudo apt update && sudo apt install git
 
